@@ -24,10 +24,6 @@ steps:
 
 - task: gulp@1
   displayName: 'Run gulp tasks'
-  inputs:
-    workingDirectory: 'obfuscated.Host'
-    targets: 'moduleCopy copyModuleDependencies'
-    enableCodeCoverage: false
 
 - script: 'echo "$(Build.DefinitionName), $(Build.BuildId), $(Build.BuildNumber)" > buildinfo.txt'
   displayName: 'Write build info'
