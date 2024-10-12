@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "gulp": "gulp"
+  },
   "dependencies": {
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
